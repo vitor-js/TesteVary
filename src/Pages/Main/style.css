@@ -1,0 +1,47 @@
+.pokemon-list{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.pokemon-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-list article p {
+    font-size: 16px;
+    color:#999;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.pokemon-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pokemon-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border:0px;
+    background-color: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.pokemon-list .actions button[disabled] {
+    opacity: 0.7;
+    cursor: default;
+}
+
+.pokemon-list .actions button:hover {
+    opacity: 0.7;
+}
